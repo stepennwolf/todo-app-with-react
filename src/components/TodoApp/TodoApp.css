@@ -1,0 +1,17 @@
+.todo-app {
+    margin: 0 auto;
+    margin-top: 25px;
+    padding: 35px 30px;
+    width: 550px;
+    border-radius: 5px;
+    box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.1);
+}
+
+.todo-app__filters-label {
+    color: rgba(31, 42, 75, 0.59);
+    font-size: 14px;
+}
+
+.todo-app__filters-option + .todo-app__filters-option {
+    padding-left: 10px;
+}
